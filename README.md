@@ -127,7 +127,7 @@ A seguir, os passos executados para a realização deste projeto:
 
 Imagens úteis:
 ![image](https://github.com/user-attachments/assets/753ba795-657c-415f-a32c-c47288ee1686)
-![image](https://github.com/user-attachments/assets/372e0cb8-f4c1-4722-8add-76ab84ed33f2)
+
 ![image](https://github.com/user-attachments/assets/9e7b3220-2fc3-4e43-973c-94debd254a8b)
 
 
