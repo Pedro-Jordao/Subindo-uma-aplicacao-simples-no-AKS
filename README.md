@@ -24,6 +24,7 @@ A seguir, os passos executados para a realização deste projeto:
   ```
   docker run -d -p 80:80 techblog/land:latest
   ```
+![image](https://github.com/user-attachments/assets/ba0632fe-699d-4ee2-873e-ec5a3a605fa2)
 
 ---
 
@@ -121,7 +122,10 @@ A seguir, os passos executados para a realização deste projeto:
   ```
   kubectl get svc landing-page
   ```
-  
+  ![image](https://github.com/user-attachments/assets/e9b6546c-620f-43c9-8751-a921b8c67048)
+
+
+![image](https://github.com/user-attachments/assets/09308388-48e0-478f-b3c2-c5f9d4fe36c6)
 
 ---
 
