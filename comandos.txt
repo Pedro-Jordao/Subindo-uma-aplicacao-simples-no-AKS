@@ -1,0 +1,20 @@
+docker build -t techblog/land:latest .
+
+docker run -d -p 80:80 techblog/land:latest
+
+az login
+
+az acr login --name rgstryphforcloud
+
+docker tag techblog/land:latest rgstryphforcloud.azurecr.io/techblog-land:latest
+
+docker push rgstryphforcloud.azurecr.io/techblog-land:latest
+
+Criar arquivos Service.yaml e Deployment.yaml
+
+az aks get-credentials --resource-group AKS01 --name aks-dev-westus3-0ph1-dio-labph0001
+
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+
+kubectl get svc landing-page
